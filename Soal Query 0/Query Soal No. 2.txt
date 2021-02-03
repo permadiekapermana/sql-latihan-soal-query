@@ -1,0 +1,1 @@
+SELECT COUNT(CITY) as total_city, COUNT(DISTINCT CITY) as total_distinct, COUNT(CITY) - COUNT(DISTINCT CITY) FROM station

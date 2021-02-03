@@ -1,0 +1,1 @@
+SELECT TB_Anggota.ID_Anggota, TB_Anggota.NM_Anggota, TB_Buku.NM_Buku FROM TB_Anggota INNER JOIN tb_pinjam ON tb_pinjam.ID_Anggota = tb_anggota.ID_Anggota INNER JOIN tb_buku ON tb_pinjam.ID_Buku = tb_buku.ID_Buku WHERE id_pinjam NOT IN (SELECT id_pinjam FROM tb_kembali)

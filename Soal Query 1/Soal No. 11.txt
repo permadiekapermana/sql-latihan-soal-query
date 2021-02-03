@@ -1,0 +1,1 @@
+SELECT  `tb_buku`.`Pengarang`,  Count(`tb_pinjam`.`ID_Buku`) AS `jumlah_pinjam` FROM  `tb_buku` INNER JOIN `tb_pinjam` ON `tb_pinjam`.`ID_Buku` = `tb_buku`.`ID_Buku` GROUP BY  `tb_buku`.`Pengarang` ORDER BY  `tb_buku`.`Pengarang` DESC LIMIT 1

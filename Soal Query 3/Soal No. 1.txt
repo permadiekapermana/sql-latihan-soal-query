@@ -1,0 +1,1 @@
+SELECT * FROM karyawan ORDER BY Tanggal_masuk ASC LIMIT 3

@@ -1,0 +1,1 @@
+SELECT DISTINCT A.Nomor_induk, A.Nama, 12 - IFNULL(SUM(B.Lama_cuti), 0) AS sisa_cuti FROM karyawan A LEFT JOIN cuti_karyawan B ON A.Nomor_induk=B.nomor_induk GROUP BY A.Nomor_induk

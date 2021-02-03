@@ -1,0 +1,1 @@
+SELECT  `tb_anggota`.`ID_Anggota`,  `tb_anggota`.`NM_Anggota`, `tb_buku`.`NM_Buku` FROM  `tb_anggota` INNER JOIN `tb_pinjam` ON `tb_pinjam`.`ID_Anggota` = `tb_anggota`.`ID_Anggota` "INNER JOIN `tb_buku` ON `tb_pinjam`.`ID_Buku` = `tb_buku`.`ID_Buku` ORDER BY tb_anggota.NM_Anggota ASC

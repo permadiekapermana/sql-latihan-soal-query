@@ -1,0 +1,1 @@
+SELECT A.ID_Anggota, A.NM_Anggota, B.NM_Buku, B.Harga, P.Tgl_Pinjam FROM TB_Anggota A, TB_Buku B, TB_Pinjam P WHERE P.ID_Anggota = A.ID_Anggota AND P.ID_Buku = B.ID_Buku

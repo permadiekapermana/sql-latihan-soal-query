@@ -1,0 +1,1 @@
+SELECT jadwal.hari, jadwal.Jam_Mulai, jadwal.Jam_Selesai, matakuliah.Kd_matakuliah, matakuliah.Nama_Matakuliah, dosen.Kd_dosen, dosen.Nama FROM jadwal INNER JOIN matakuliah ON jadwal.Kd_matakuliah=matakuliah.Kd_matakuliah INNER JOIN dosen ON jadwal.Kd_Dosen=dosen.Kd_dosen

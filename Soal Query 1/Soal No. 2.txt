@@ -1,0 +1,1 @@
+SELECT  `tb_buku`.`ID_Buku`,  `tb_buku`.`NM_Buku` FROM  `tb_buku` INNER JOIN `tb_pinjam` ON `tb_pinjam`.`ID_Buku` = `tb_buku`.`ID_Buku` WHERE id_Pinjam NOT IN (SELECT id_pinjam FROM tb_kembali) AND harga <25000

@@ -1,0 +1,1 @@
+SELECT DISTINCT dosen.Kd_Dosen, dosen.Nama FROM dosen INNER JOIN jadwal ON dosen.Kd_dosen=jadwal.Kd_Dosen WHERE dosen.Kd_dosen IN (SELECT Kd_dosen FROM jadwal WHERE Jam_Mulai='08:00:00' AND Jam_Selesai='09:40:00')

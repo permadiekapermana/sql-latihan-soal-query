@@ -1,0 +1,1 @@
+SELECT ruangan.No_Ruangan, ruangan.Nama_Ruangan FROM `ruangan` INNER JOIN jadwal ON ruangan.No_Ruangan=jadwal.No_Ruangan WHERE ruangan.No_Ruangan NOT IN (SELECT No_Ruangan FROM jadwal WHERE hari=2)

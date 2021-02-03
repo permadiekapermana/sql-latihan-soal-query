@@ -1,0 +1,1 @@
+SELECT  `tb_buku`.`ID_Buku`,  `tb_buku`.`NM_Buku`,  COUNT(tb_pinjam.ID_Buku) AS jumlah_pinjam FROM  `tb_buku` INNER JOIN `tb_pinjam` ON `tb_pinjam`.`ID_Buku` = `tb_buku`.`ID_Buku` GROUP BY tb_buku.ID_Buku

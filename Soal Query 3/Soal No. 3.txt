@@ -1,0 +1,1 @@
+SELECT A.Nomor_induk, A.Nama, B.Lama_cuti FROM karyawan A, cuti_karyawan B WHERE B.nomor_induk=A.Nomor_induk AND b.Lama_cuti > 1

@@ -1,0 +1,1 @@
+SELECT  `tb_anggota`.`ID_Anggota`,  `tb_anggota`.`NM_Anggota`, COUNT(tb_pinjam.ID_Anggota) AS jumlah_pinjam FROM  `tb_anggota` INNER JOIN `tb_pinjam` ON `tb_pinjam`.`ID_Anggota` = `tb_anggota`.`ID_Anggota` ORDER BY jumlah_pinjam ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT DISTINCT tb_pinjam.ID_Buku, NM_Buku FROM tb_pinjam INNER JOIN tb_buku ON tb_pinjam.ID_Buku=tb_buku.ID_Buku WHERE tb_pinjam.ID_Buku NOT IN (SELECT ID_Buku FROM tb_pinjam WHERE YEAR(Tgl_Pinjam) = 2010) AND tb_pinjam.ID_Buku IN (SELECT ID_Buku FROM tb_pinjam WHERE YEAR(Tgl_Pinjam) > 2010)
