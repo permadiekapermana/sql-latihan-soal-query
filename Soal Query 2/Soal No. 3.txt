@@ -1,1 +1,1 @@
-SELECT B.ID_Person, B.Nama FROM tb_person A, tb_person B WHERE B.ID_Pasangan=A.ID_Person AND A.ID_Person='Data002'
+SELECT B.ID_Person, B.Nama FROM tb_person A, tb_person B WHERE B.ID_Pasangan=A.ID_Person AND A.Nama='Santi'

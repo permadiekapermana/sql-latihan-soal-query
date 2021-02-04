@@ -1,1 +1,3 @@
-SELECT A.ID_Person, A.Nama, B.Nama Nama_Ayah, C.Nama Nama_Ibu FROM tb_person A, tb_person B, tb_person C WHERE A.ID_Person=B.ID_Person AND A.ID_Person=C.ID_Person AND A.ID_Person='Data003'
+SELECT A.ID_Person, A.Nama, B.Nama Nama_Ayah, C.Nama Nama_Ibu 
+FROM tb_person A, tb_person B, tb_person C 
+WHERE A.ID_Person=B.ID_Person AND A.ID_Person=C.ID_Person AND A.Nama='Budi'
