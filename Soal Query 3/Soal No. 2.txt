@@ -1,1 +1,0 @@
-SELECT A.Nomor_induk, A.Nama, A.Tanggal_masuk, B.Lama_cuti, B.keterangan FROM karyawan A, cuti_karyawan B WHERE B.nomor_induk=A.Nomor_induk

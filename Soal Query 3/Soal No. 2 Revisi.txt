@@ -1,0 +1,1 @@
+SELECT A.Nomor_induk, A.Nama, B.Tanggal_mulai, B.Lama_cuti, B.keterangan FROM karyawan A INNER JOIN cuti_karyawan B ON A.Nomor_induk=B.nomor_induk WHERE B.Tanggal_mulai + B.Lama_cuti >= CURDATE()

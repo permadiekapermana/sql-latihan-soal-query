@@ -1,1 +1,0 @@
-SELECT DISTINCT dosen.Kd_Dosen, dosen.Nama FROM dosen INNER JOIN jadwal ON dosen.Kd_dosen=jadwal.Kd_Dosen WHERE dosen.Kd_dosen NOT IN (SELECT Kd_dosen FROM jadwal WHERE hari=3)

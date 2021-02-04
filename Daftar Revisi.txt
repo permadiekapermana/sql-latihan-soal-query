@@ -1,0 +1,13 @@
+Soal Query 0
+- No. 6 regex, awal huruf vokal dan akhir huruf vokal
+
+Soal Query 1
+- No. 7 dan No.8 diganti select berdasarkan ID Buku, sebelumnya ID Anggota
+
+Soal Query 2
+- No. 1, No. 2, No.3 kondisi Where diganti Nama, sebelumnya IDPerson
+
+Soal Query 3
+- Diganti semua dengan INNER JOIN
+- No. 2 filter karyawan yang sedang cuti
+- No. 3 count jumlah karyawan cuti
