@@ -11,3 +11,6 @@ Soal Query 3
 - Diganti semua dengan INNER JOIN
 - No. 2 filter karyawan yang sedang cuti
 - No. 3 count jumlah karyawan cuti
+
+Soal Query 4
+- No. 5 INNER JOIN diagnti dengan LEFT JOIN
